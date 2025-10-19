@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodify</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="https://play-lh.googleusercontent.com/xIUm_dkPN0dLYWE2nT_1KU6UaVHffjpWBOMB7W0Ag2NXyGGQsfghz4W7ULZ4fdrDTg">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="logo">🍽️ <strong>Foodify</strong></div>
+        <div class="location">
+          <span>📍 Deliver to: <strong>Bengaluru, 560076</strong></span>
+        </div>
+        <div class="search-container">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search for restaurants, cuisines, or dishes..."
+          />
+        </div>
+        <div class="user-actions">
+          <a href="#cart" class="cart-icon"
+            >🛒<span class="cart-count"><sup>3</sup></span></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-container">
+        <h1>Delicious Food, Delivers Fast</h1>
+        <p>
+          Order from your favourite restaurants and get fresh food deliverd to
+          your doorstep
+        </p>
+        <a href="#restaurants" class="cta-button">Order Now</a>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+      <div class="container">
+        <h2 class="section-title">Popular Categories</h2>
+        <div class="categories-grid">
+          <div class="category-item">
+            <div class="category-icon">
+                <img src="https://images6.alphacoders.com/870/thumb-1920-870777.jpg" alt=""></div>
+            <h3>Burgers</h3>
+            <p>Juicy Burgers and Sandwiches</p>
+          </div>
+
+          <div class="category-item">
+            <div class="category-icon">
+              <img src="https://th.bing.com/th/id/OIP.xR-mUgHo5nTl8E_UpzFzzQHaD7?w=342&h=182&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3" alt="">
+            </div>
+            <h3>Veg Restaurant</h3>
+            <p>Pure Veg</p>
+          </div>
+
+          <div class="category-item">
+            <div class="category-icon">
+              <img src="https://theambientmenu.com.au/wp-content/uploads/2021/04/IMG_1667.jpg" alt="">
+            </div>
+            <h3>Beverages</h3>
+            <p>Coffee, Tea and Cold Drinks</p>
+          </div>
+
+          <div class="category-item">
+            <div class="category-icon">
+              <img src="https://img.freepik.com/free-photo/panipuri-fuchka-gupchup-golgappa-pani-ke-patake-is-type-snack-that-originated-indian-subcontinent_466689-69045.jpg?size=626&ext=jpg" alt="">
+            </div>
+            <h3>Snacks</h3>
+            <p>Masala Puri, pani Puri,Spl Bhel Puri</p>
+          </div>
+
+          <div class="category-item">
+            <div class="category-icon">
+              <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/1/24/d123dcb8-3a82-4726-8882-84f070857d97_3286ddfd-6f15-4cd4-a051-36871e9384ce.jpg" alt="">
+            </div>
+            <h3>Noodles</h3>
+            <p>Chineese, Asian Noodles</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Restaurants -->
+    <section id="restaurants" class="restaurants">
+      <div class="container">
+        <h2 class="section-title">Top Restaurants Near You</h2>
+        <div class="restaurant-grid">
+          <div class="restaurant-card">
+            <div class="restaurant-image">
+              <img src="https://rs-menus-api.roocdn.com/images/5e875d38-141a-448f-81d6-c7c5b6fb07e7/image.jpeg?width=1200&height=630&fit=crop" alt="">
+            </div>
+            <div class="restaurant-info">
+              <div class="restaurant-name">Kailasam Veg Restaurant</div>
+              <div class="restaurant-cuisine">Indian</div>
+              <div class="restaurant-details">
+                <div class="rating">⭐ 4.9</div>
+                <div class="delivery-time">25-30 mins</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="restaurant-card">
+            <div class="restaurant-image">
+              <img src="https://tse4.mm.bing.net/th/id/OIP.FT7Pl0dc-vQwmVKxrSa9KQHaFj?cb=12&w=1200&h=900&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+            </div>
+            <div class="restaurant-info">
+              <div class="restaurant-name">Kavya Grand-Veg</div>
+              <div class="restaurant-cuisine">Vegetarian</div>
+              <div class="restaurant-details">
+                <div class="rating">⭐ 4.1</div>
+                <div class="delivery-time">25-30 mins</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="restaurant-card">
+            <div class="restaurant-image">
+              <img src="https://b.zmtcdn.com/data/pictures/9/51639/abf73a345d599970e201c44c960ae9f3_o2_featured_v2.jpg" alt="">
+           </div>
+            <div class="restaurant-info">
+              <div class="restaurant-name">Meghana's Biriyani</div>
+              <div class="restaurant-cuisine">
+                Chicken Biriyani, Mutton Biriyani
+              </div>
+              <div class="restaurant-details">
+                <div class="rating">⭐ 4.4</div>
+                <div class="delivery-time">20-25 mins</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="restaurant-card">
+            <div class="restaurant-image">
+              <img src="https://b.zmtcdn.com/data/pictures/8/57568/3fd7803b05df382df9bf950304abe9eb_featured_v2.jpg" alt="">
+            </div>
+            <div class="restaurant-info">
+              <div class="restaurant-name">Gowdru Mane Oota</div>
+              <div class="restaurant-cuisine">Non-veg</div>
+              <div class="restaurant-details">
+                <div class="rating">⭐ 4.5</div>
+                <div class="delivery-time">30-35 mins</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="restaurant-card">
+            <div class="restaurant-image">
+              <img src="https://tse2.mm.bing.net/th/id/OIP.G9CLYex3LouVDUl6abxAbwHaEO?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+            </div>
+            <div class="restaurant-info">
+              <div class="restaurant-name">Taco Bell</div>
+              <div class="restaurant-cuisine">Mexican, Tacos, Spicy</div>
+              <div class="restaurant-details">
+                <div class="rating">⭐ 4.2</div>
+                <div class="delivery-time">25-30 mins</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="restaurant-card">
+            <div class="restaurant-image">
+              <img src="https://b.zmtcdn.com/data/pictures/3/20380623/3704a8f3afd09d718915ca7cd5ecf413_o2_featured_v2.jpg" alt="">
+            </div>
+            <div class="restaurant-info">
+              <div class="restaurant-name">KFC</div>
+              <div class="restaurant-cuisine">Fride Chicken,Burger, Rolls, Fast Food</div>
+              <div class="restaurant-details">
+                <div class="rating">⭐ 4.6</div>
+                <div class="delivery-time">35-40 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---Menu-Section--- -->
+    <section class="menu">
+      <div class="container">
+        <h2 class="section-title">Popular Dishes</h2>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-image">
+              <img src="https://www.thespruceeats.com/thmb/yi5M46Z6MzeAV_CXPg-v0Wuw8wM=/1414x942/filters:no_upscale():max_bytes(150000):strip_icc()/Mutter-Paneer-GettyImages-670907161-58d00a633df78c3c4f3b9bb2.jpg" alt="">
+            </div>
+            <div class="menu-info">
+              <div class="menu-name">Panner Butter Masala</div>
+              <div class="menu-description">
+                Fresh tomatoes paste,panner,butter,fresh cream
+              </div>
+              <div class="menu-footer">
+                <div class="menu-price">Rs.149</div>
+                <button class="add-button">ADD</button>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-image">
+              <img src="https://b.zmtcdn.com/data/pictures/2/21119382/b1da05e244c7edbf65841af8b2bc9549_o2_featured_v2.jpg?output-format=webp" alt="">
+            </div>
+            <div class="menu-info">
+              <div class="menu-name">Classic Cheeseburger</div>
+              <div class="menu-description">
+                Crispy aloo patty with cheese, lettuce, tomato, and special
+                sauce
+              </div>
+              <div class="menu-footer">
+                <div class="menu-price">Rs.100</div>
+                <button class="add-button">ADD</button>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-image">
+              <img src="https://b.zmtcdn.com/data/dish_photos/3b1/a7285249d09f93eef25d228307f523b1.jpeg" alt="">
+            </div>
+            <div class="menu-info">
+              <div class="menu-name">Chicken Noodles</div>
+              <div class="menu-description">
+                Rich broth with tender chicken, noodles, and fresh vegetables
+              </div>
+              <div class="menu-footer">
+                <div class="menu-price">Rs.150</div>
+                <button class="add-button">ADD</button>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-image">
+              <img src="https://veggieworldrecipes.com/wp-content/uploads/2020/01/vegan-pasta-salad1-1200x1200.jpg" alt="">
+            </div>
+            <div class="menu-info">
+              <div class="menu-name">Vegan Pasta salad</div>
+              <div class="menu-description">
+                Coconut Yogurt,pepper,salt,pasta,Broccoli,large Carrots,red bell pepper,yellow squash,green onios,olives
+              </div>
+              <div class="menu-footer">
+                <div class="menu-price">Rs.120</div>
+                <button class="add-button">ADD</button>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-image">
+              <img src="https://tse2.mm.bing.net/th/id/OIP.PS38FFowrzj8uqJe6sAx-AHaHa?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+            </div>
+            <div class="menu-info">
+              <div class="menu-name">Taco bell guatemala</div>
+              <div class="menu-description">
+                taco,fries,coke
+              </div>
+              <div class="menu-footer">
+                <div class="menu-price">Rs.290</div>
+                <button class="add-button">ADD</button>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-image">
+              <img src="https://tse2.mm.bing.net/th/id/OIP.w_IkxGmn7lup5UsD90ozTQHaFj?cb=12&w=1200&h=900&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+            </div>
+            <div class="menu-info">
+              <div class="menu-name">Mushroom Biriyani</div>
+              <div class="menu-description">
+                White Button Mushrooms Onion,Tomatoes Mint Leaves
+              </div>
+              <div class="menu-footer">
+                <div class="menu-price">Rs.200</div>
+                <button class="add-button">ADD</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Special Offers -->
+    <section class="offers">
+      <div class="container">
+        <h2 class="section-title">Special Offers</h2>
+        <div class="offers-grid">
+          <div class="offer-card">
+            <div class="offer-title">50% Off</div>
+            <div class="offer-description">on your first order</div>
+            <div class="offer-code">Use: WELCOME50</div>
+          </div>
+
+          <div class="offer-card">
+            <div class="offer-title">Free Delivery</div>
+            <div class="offer-description">on orders above Rs.25</div>
+            <div class="offer-code">Use: FREEDEL</div>
+          </div>
+
+          <div class="offer-card">
+            <div class="offer-title">Buy 1 Get 1</div>
+            <div class="offer-description">on selected pizzas</div>
+            <div class="offer-code">Use: BOGO</div>
+          </div>
+
+          <div class="offer-card">
+            <div class="offer-title">20% Off</div>
+            <div class="offer-description">on weekend orders</div>
+            <div class="offer-code">Use: WEEKEND20</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Foodify</h3>
+            <p>
+              Your favourite food delivery app bringing meals right to your
+              doorstep.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#restaurants">Restaurants</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#offers">Offers</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h3>Support</h3>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Track Order</a></li>
+              <li><a href="#">Refund Folicy</a></li>
+              <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h3>Contact Info</h3>
+            <p>📞 1-8000-FOODIE</p>
+            <p>✉️ supportfoodie@gmail.com</p>
+            <p>📍 123Food Street, BLR 560076</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Foodify. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+     <div id="cart" class="cart-sidebar">
+      <div class="cart-header">
+        <h3>Your Cart (3 items)</h3>
+        <a href="#" class="close-cart">✕</a>
+      </div>
+      <div class="cart-items">
+        <div class="cart-item">
+          <h4>Panner Butter Masala</h4>
+          <p class="cart-restaurant">Kavya Grand-Veg</p>
+          <div class="cart-item-footer">
+            <span>Rs.149.0</span>
+            <div class="quantity-controls">
+              <button class="quantity-btn">-</button>
+              <span>1</span>
+              <button class="quantity-btn-add">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <h4>Classic Cheeseburger</h4>
+          <p class="cart-restaurant">KFC</p>
+          <div class="cart-item-footer">
+            <span>Rs.100</span>
+            <div class="quantity-controls">
+              <button class="quantity-btn">-</button>
+              <span>2</span>
+              <button class="quantity-btn-add">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <h4>Vegan Pasta salad</h4>
+          <p class="cart-restaurant">Kailasam Veg Restaurant</p>
+          <div class="cart-item-footer">
+            <span>Rs.120.0</span>
+            <div class="quantity-controls">
+              <button class="quantity-btn">-</button>
+              <span>1</span>
+              <button class="quantity-btn-add">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cart-totals">
+        <div class="cart-total-row">
+          <span>Subtotal:</span>
+          <span>Rs.369.00</span>
+        </div>
+        <div class="cart-total-row">
+          <span>Delivery Fee:</span>
+          <span>Rs.50.00</span>
+        </div>
+        <div class="cart-total-row">
+          <span>Tax:</span>
+          <span>Rs.30.99</span>
+        </div>
+        <div class="cart-total-final">
+          <span>Total:</span>
+          <span>Rs.449.90</span>
+        </div>
+        <button class="checkout-button">Proceed to Checkout</button>
+      </div>
+    </div>
+  </body>
+</html>
+  </body>
+</html>
